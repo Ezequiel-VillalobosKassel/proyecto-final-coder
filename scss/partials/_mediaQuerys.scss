@@ -1,0 +1,47 @@
+@media screen and (max-width: 500px) {
+    body {
+      width: 100%;
+    }
+    header {
+      justify-content: center;
+      flex-direction: column;
+    }
+    .logoHeader {
+      width: 100%;
+      justify-content: center;
+    }
+    .nav {
+      width: 100%;
+    }
+    .ulNav {
+      justify-content: center;
+    }
+    .ulNav a {
+      padding: 0 10px;
+    }
+    .logoFooter {
+      display: flex;
+      justify-content: center;
+    }
+    .derechos {
+      display: flex;
+      justify-content: center;
+    }
+    .loremComienzos {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+    .imagenesIndex {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+    .imagenEquipo {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
