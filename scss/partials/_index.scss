@@ -10,7 +10,6 @@ ul {
   }
   h1 {
     font-size: 25px;
-    color: brown;
     @extend %flex
   }
   .comienzos {
@@ -22,9 +21,6 @@ ul {
     font-size: 18px;
     color: sienna;
     @extend %flex
-  }
-  .brown {
-    color: brown;
   }
   .divVideo {
     width: 100%;

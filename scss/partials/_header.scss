@@ -1,39 +1,25 @@
 header {
-    border: 3px solid brown;
+    border: 3px;
     padding: 10px;
-    background-color: blanchedalmond;
-    display: -webkit-box;
+    background-color: $colorPrimary;
+    display: -webkit-wibox;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    #containerLogo{
+        width: 15%;
+        .logoHeader{
+            width: 100%;
 
-        .logoHeader {
-          width: 30%;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: left;
-              -ms-flex-pack: left;
-                  justify-content: left;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
         }
-        .nav {
-         width: 70%;
-         padding: 0;
-
-            .ulNav {
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              -ms-flex-pack: distribute;
-                  justify-content: space-around;
-              width: 100%;
-            }
-         }          
+    }
+    #nav{
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+    
 }
 

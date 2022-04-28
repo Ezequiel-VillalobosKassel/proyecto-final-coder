@@ -7,75 +7,223 @@
     <meta name="description" content="Conoce nuestra variedad de alimentos, tanto dulces como salados. Las comidas mas sabrosas, abundantes y por sobre todo nutritivas en DeEsteSuelo">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Nuestros productos ~De Este Suelo</title>   
 </head>
 <body>
     <header>
-        <div class="logoHeader">
-            <a href="../index.html">
-                <img src="../assest/imagenes/logo.png" width="250px" height="250px" alt="logo">
-            </a>
-        </div>
-        <nav class="nav">
-            <ul class="ulNav">
-                <li><a href="../index.html"><button type="button" class="btn btn-outline-dark">Inicio</button></a></li>
-                <li><a href="../pages/productos.html"><button type="button" class="btn btn-outline-dark">Productos</button></a></li>
-                <li><a href="../pages/informacion.html"><button type="button" class="btn btn-outline-dark">Informacion</button></a></li>
-                <li><a href="../pages/contacto.html"><button type="button" class="btn btn-outline-dark">Contacto</button></a></li>   
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-tranparent">
+            <div class="container-fluid">
+              <a class="navbar-brand m-0 p-0" href="../index.html" id="containerLogo"><img class="logoHeader" src="../assest/imagenes/logo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0" id="nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./informacion.html">Información</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./productos.html">Salados</a></li>
+                      <li><a class="dropdown-item" href="./productos.html">Dulces</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Icono</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <h1>PRODUCTOS</h1 >
-            <div class="bloqueSalado">
+            <div class="bloque bloqueSalado">
                 <h2>Alimentos Salados</h2>          
                 <div class="salados">
-                    <img class="producto" src="../assest/imagenes/salado/salado7.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado2.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado3.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado4.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado5.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado6.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado1.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado8.jpg" alt="salado">
-                    <img class="producto" src="../assest/imagenes/salado/salado9.jpg" alt="salado">
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado1.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado2.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado3.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado4.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado5.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado6.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado7.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado8.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/salado/salado9.jpg" class="card-img-top" alt="salado">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="bloqueDulce">
+            <div class="bloque bloqueDulce">
                 <h2>Alimentos Dulces</h2>
                 <div class="dulces">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce1.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce7.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce3.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce4.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce17.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce6.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce2.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce14.jpg" alt="dulce">
-                     <img class="producto" src="../assest/imagenes/dulce/dulce9.jpg" alt="dulce">
-                </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce1.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce7.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce3.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce4.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce17.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce6.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce2.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce14.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../assest/imagenes/dulce/dulce9.jpg" class="card-img-top" alt="dulce">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
             </div>
     </main>
     <footer>
-        <div>
+        <div class="bloque1">
             <a href="../index.html">
-                <div  class="logoFooter">
-                     <img src="../assest/imagenes/logo.png" width="250px" height="250px" alt="logo">
+                <div class="logoFooter">
+                    <img src="../assest/imagenes/logo.png" width="150px" height="150px" alt="logo">
                 </div>
             </a>
         </div>
-        <div>
+        <div class="bloque2">
             <div>
-                <ul class="redesFooter">
-                    <li><a href="https://z-p15.www.instagram.com/deestesuelo/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                </ul>
+                <div>
+                    <ul class="redesFooter">
+                        <li><a href="https://z-p15.www.instagram.com/deestesuelo/?hl=es-la" target="_blank"><i class="fab fa-instagram fs-2"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fab fa-facebook fs-2"></i></a></li>
+                        <li><a href="https://wa.link/iz2lf1" target="_blank"><i class="fab fa-whatsapp fs-2"></i></a></li> 
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div>
-            <p class="derechos">&copyright - <span class="brown">De Este Suelo 2021</span>  - Todos los Derechos reservados</p>
+            <div>
+                <p class="derechos">&copyright - <span class="brown">De Este Suelo 2021</span>  - Todos los Derechos reservados</p>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

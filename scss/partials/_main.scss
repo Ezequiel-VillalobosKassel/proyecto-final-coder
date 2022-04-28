@@ -1,5 +1,25 @@
 main {
     width: 100%;
     padding: 10px;
-    border: 3px solid brown;
-  }
+    .carousel-item{
+      img{
+        min-height: 300px;
+        max-height: 500px;
+        padding: 0 18%;
+      }
+      h5, p{
+        margin: 0 20px;
+        padding: 10px;
+        font-size: 150% !important;
+        color: white !important;
+        background-color: rgba(255, 255, 255, 0.323);
+      }
+      p{
+        font-weight: lighter !important;
+      }
+      h5{
+        font-weight: bold;
+        font-size: 200% !important;
+      }
+    }
+}

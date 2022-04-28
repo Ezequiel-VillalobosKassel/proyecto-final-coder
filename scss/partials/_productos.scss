@@ -1,33 +1,33 @@
-.producto {
+.bloqueSalado {
   width: 100%;
-  height: 100%;
-  margin: 3vh 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
+  margin: 20px auto;
 
-  .bloqueSalado,
-  .bloqueDulce {
-    width: 100%;
-    margin: 20px auto;
-  
-    .salados {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto;
-      width: 80%;
-      margin: 0 auto;
-      gap: 10px;
-    }
-    .dulces {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto;
-      width: 80%;
-      margin: 0 auto;
-      gap: 15px;
-    }
+  .salados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 15px;
+  }
+}  
+.bloqueDulce {
+  width: 100%;
+  margin: 20px auto;
+
+  .dulces {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 15px;
   }        
+}
+.bloque{
+  background-color: rgba(255, 255, 255, 0.278);
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 90%;
+  margin-bottom: 30px;
 }

@@ -1,24 +1,14 @@
-footer {
-  width: 100%;
-  border: 3px solid brown;
-  padding: 10px;
-  background-color: #fcd59c;
+@import url("https://fonts.googleapis.com/css2? family= Roboto & display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.redesFooter {
-  gap: 10rem;
-}
-
-.redesFooter, h1, h2, .mapa {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: blanchedalmond;
+  overflow-x: hidden;
 }
 
 ul {
@@ -35,7 +25,6 @@ a {
 
 h1 {
   font-size: 25px;
-  color: brown;
 }
 
 .comienzos {
@@ -53,10 +42,6 @@ h1 {
 h2 {
   font-size: 18px;
   color: sienna;
-}
-
-.brown {
-  color: brown;
 }
 
 .divVideo {
@@ -86,6 +71,35 @@ h2 {
           align-items: center;
   padding: 0;
   margin: 0;
+}
+
+header {
+  border: 3px;
+  padding: 10px;
+  background-color: blanchedalmond;
+  display: -webkit-wibox;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+header #containerLogo {
+  width: 15%;
+}
+
+header #containerLogo .logoHeader {
+  width: 100%;
+}
+
+header #nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 20px;
 }
 
 .contactenos {
@@ -144,55 +158,46 @@ h2 {
           align-items: center;
 }
 
-.producto {
-  width: 100%;
-  height: 100%;
-  margin: 3vh 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-}
-
-.producto .bloqueSalado,
-.producto .bloqueDulce {
+.bloqueSalado {
   width: 100%;
   margin: 20px auto;
 }
 
-.producto .bloqueSalado .salados,
-.producto .bloqueDulce .salados {
+.bloqueSalado .salados {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  width: 80%;
   margin: 0 auto;
-  gap: 10px;
+  gap: 20px;
+  padding: 15px;
 }
 
-.producto .bloqueSalado .dulces,
-.producto .bloqueDulce .dulces {
+.bloqueDulce {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.bloqueDulce .dulces {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  width: 80%;
   margin: 0 auto;
-  gap: 15px;
+  gap: 20px;
+  padding: 15px;
+}
+
+.bloque {
+  background-color: rgba(255, 255, 255, 0.278);
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 90%;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 500px) {
@@ -280,58 +285,85 @@ h2 {
 main {
   width: 100%;
   padding: 10px;
-  border: 3px solid brown;
 }
 
-header {
-  border: 3px solid brown;
+main .carousel-item img {
+  min-height: 300px;
+  max-height: 500px;
+  padding: 0 18%;
+}
+
+main .carousel-item h5, main .carousel-item p {
+  margin: 0 20px;
   padding: 10px;
-  background-color: blanchedalmond;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  font-size: 150% !important;
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.323);
+}
+
+main .carousel-item p {
+  font-weight: lighter !important;
+}
+
+main .carousel-item h5 {
+  font-weight: bold;
+  font-size: 200% !important;
+}
+
+footer {
   width: 100%;
-}
-
-header .logoHeader {
-  width: 30%;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-header .nav {
-  width: 70%;
-  padding: 0;
-}
-
-header .nav .ulNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
-  width: 100%;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  background-color: blanchedalmond;
-  overflow-x: hidden;
+.redesFooter {
+  gap: 10rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+.logoFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.derechos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1, h2, .mapa, .redesFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

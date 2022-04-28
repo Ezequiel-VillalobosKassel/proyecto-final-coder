@@ -1,22 +1,15 @@
 @import "./partials/variables";
-@import "./partials/footer";
-@import "./partials/extend";
+@import "./partials/body";
 @import "./partials/index";
+@import "./partials/header";
 @import "./partials/contacto";
 @import "./partials/informacion";
 @import "./partials/productos";
 @import "./partials/mediaQuerys";
 @import "./partials/main";
-@import "./partials/header";
-@import "./partials/body";
+@import "./partials/footer";
+@import "./partials/extend";
 
 
 
 
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-}

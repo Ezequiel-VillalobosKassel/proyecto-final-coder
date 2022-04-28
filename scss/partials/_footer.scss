@@ -1,11 +1,22 @@
 footer {
     width: 100%;
-    border: 3px solid brown;
     padding: 10px;
-    background-color: rgb(252, 213, 156);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
   }
   .redesFooter {
     gap: 10rem;
     @extend %flex
-
   }
+  .logoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .derechos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
