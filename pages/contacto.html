@@ -50,30 +50,22 @@
     <main>
         <form action="">
             <fieldset>
-                <legend>CONTACTO</legend>
-                <div class="nombre">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre">
-                </div>  
-                <div class="email">
-                    <label for="email">Email:</label>
-                    <input type="text" name="email">
-                </div>    
-                <div class="telefono">
-                    <label for="telefono">Numero de contacto:</label>
-                    <input type="text" name="telefono">
+                <h1 class="contacto">CONTACTO</h1>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
-                <div>
-                    <label for="opinion">SU OPINION NOS IMPORTA</label>
-                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="dejenos aqui su mensaje"></textarea>
-                    <input type="submit" value="Enviar">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Telefono</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
-                <div>
-                    <ul class="redesContacto">
-                        <li><a href="https://z-p15.www.instagram.com/deestesuelo/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                    </ul>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Dejenos aqui su mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
             </fieldset>   
         </form>
